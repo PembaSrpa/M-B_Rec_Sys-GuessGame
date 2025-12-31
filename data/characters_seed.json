@@ -1,0 +1,206 @@
+{
+    "characters": [
+        {
+            "id": 1,
+            "name": "Robert Downey Jr.",
+            "type": "actor",
+            "alignment": null,
+            "traits": [
+                "charismatic",
+                "witty"
+            ],
+            "genres": [
+                "action",
+                "sci-fi"
+            ],
+            "popularity_score": 98,
+            "source": "Iron Man",
+            "gender": "male"
+        },
+        {
+            "id": 2,
+            "name": "Monkey D. Luffy",
+            "type": "anime",
+            "alignment": "hero",
+            "traits": [
+                "funny",
+                "determined"
+            ],
+            "genres": [
+                "action",
+                "adventure"
+            ],
+            "popularity_score": 95,
+            "source": "One Piece",
+            "gender": "male"
+        },
+        {
+            "id": 3,
+            "name": "Scarlett Johansson",
+            "type": "actor",
+            "alignment": null,
+            "traits": [
+                "strong",
+                "mysterious"
+            ],
+            "genres": [
+                "action",
+                "sci-fi"
+            ],
+            "popularity_score": 96,
+            "source": "Black Widow",
+            "gender": "female"
+        },
+        {
+            "id": 4,
+            "name": "Naruto Uzumaki",
+            "type": "anime",
+            "alignment": "hero",
+            "traits": [
+                "determined",
+                "funny"
+            ],
+            "genres": [
+                "action"
+            ],
+            "popularity_score": 94,
+            "source": "Naruto",
+            "gender": "male"
+        },
+        {
+            "id": 5,
+            "name": "Leonardo DiCaprio",
+            "type": "actor",
+            "alignment": null,
+            "traits": [
+                "intense",
+                "versatile"
+            ],
+            "genres": [
+                "drama",
+                "thriller"
+            ],
+            "popularity_score": 97,
+            "source": "Titanic",
+            "gender": "male"
+        },
+        {
+            "id": 6,
+            "name": "Light Yagami",
+            "type": "anime",
+            "alignment": "villain",
+            "traits": [
+                "intelligent",
+                "mysterious"
+            ],
+            "genres": [
+                "thriller",
+                "mystery"
+            ],
+            "popularity_score": 89,
+            "source": "Death Note",
+            "gender": "male"
+        },
+        {
+            "id": 7,
+            "name": "Dwayne Johnson",
+            "type": "actor",
+            "alignment": null,
+            "traits": [
+                "strong",
+                "funny"
+            ],
+            "genres": [
+                "action",
+                "comedy"
+            ],
+            "popularity_score": 99,
+            "source": "Fast & Furious",
+            "gender": "male"
+        },
+        {
+            "id": 8,
+            "name": "Mikasa Ackerman",
+            "type": "anime",
+            "alignment": "hero",
+            "traits": [
+                "strong",
+                "serious"
+            ],
+            "genres": [
+                "action",
+                "drama"
+            ],
+            "popularity_score": 88,
+            "source": "Attack on Titan",
+            "gender": "female"
+        },
+        {
+            "id": 9,
+            "name": "Zendaya",
+            "type": "actor",
+            "alignment": null,
+            "traits": [
+                "charismatic",
+                "talented"
+            ],
+            "genres": [
+                "drama",
+                "action"
+            ],
+            "popularity_score": 93,
+            "source": "Spider-Man",
+            "gender": "female"
+        },
+        {
+            "id": 10,
+            "name": "Goku",
+            "type": "anime",
+            "alignment": "hero",
+            "traits": [
+                "powerful",
+                "pure_hearted"
+            ],
+            "genres": [
+                "action"
+            ],
+            "popularity_score": 97,
+            "source": "Dragon Ball",
+            "gender": "male"
+        },
+        {
+            "id": 11,
+            "name": "Keanu Reeves",
+            "type": "actor",
+            "alignment": null,
+            "traits": [
+                "mysterious",
+                "skilled"
+            ],
+            "genres": [
+                "action",
+                "sci-fi"
+            ],
+            "popularity_score": 95,
+            "source": "John Wick",
+            "gender": "male"
+        },
+        {
+            "id": 12,
+            "name": "Eren Yeager",
+            "type": "anime",
+            "alignment": "anti-hero",
+            "traits": [
+                "determined",
+                "intense"
+            ],
+            "genres": [
+                "action",
+                "drama"
+            ],
+            "popularity_score": 91,
+            "source": "Attack on Titan",
+            "gender": "male"
+        }
+    ]
+}

@@ -142,3 +142,100 @@ def search_movies(db: Session, query: str, limit: int = 10) -> List[Movie]:
     return db.query(Movie).filter(
         Movie.title.ilike(search_pattern)
     ).order_by(Movie.popularity.desc()).limit(limit).all()
+
+def save_books_bulk(db: Session, books_df: pd.DataFrame) -> int:
+    """
+    Save multiple books to database
+    """
+    print(f"[*] Saving {len(books_df)} books to database...")
+
+    books_added = 0
+    books_updated = 0
+
+    for idx, row in books_df.iterrows():
+        # Check if book exists
+        existing = db.query(Book).filter(
+            Book.google_books_id == row['google_books_id']
+        ).first()
+
+        if existing:
+            # Update existing
+            existing.title = row['title']
+            existing.authors = row.get('authors', [])
+            existing.description = row.get('description')
+            existing.categories = row.get('categories', [])
+            existing.published_date = row.get('published_date')
+            existing.decade = int(row['decade']) if pd.notna(row['decade']) else None
+            existing.page_count = int(row['page_count']) if pd.notna(row['page_count']) else None
+            existing.average_rating = float(row['average_rating']) if pd.notna(row['average_rating']) else None
+            existing.ratings_count = int(row['ratings_count']) if pd.notna(row['ratings_count']) else None
+            existing.thumbnail = row.get('thumbnail')
+            existing.publisher = row.get('publisher')
+            existing.updated_at = datetime.utcnow()
+
+            books_updated += 1
+        else:
+            # Create new
+            book = Book(
+                google_books_id=row['google_books_id'],
+                title=row['title'],
+                authors=row.get('authors', []),
+                description=row.get('description'),
+                categories=row.get('categories', []),
+                published_date=row.get('published_date'),
+                decade=int(row['decade']) if pd.notna(row['decade']) else None,
+                page_count=int(row['page_count']) if pd.notna(row['page_count']) else None,
+                average_rating=float(row['average_rating']) if pd.notna(row['average_rating']) else None,
+                ratings_count=int(row['ratings_count']) if pd.notna(row['ratings_count']) else None,
+                thumbnail=row.get('thumbnail'),
+                language=row.get('language'),
+                publisher=row.get('publisher')
+            )
+
+            db.add(book)
+            books_added += 1
+
+        # Commit every 50
+        if (books_added + books_updated) % 50 == 0:
+            db.commit()
+            print(f"  Progress: {books_added + books_updated}/{len(books_df)}")
+
+    db.commit()
+
+    print(f"[SUCCESS] Added: {books_added}, Updated: {books_updated}")
+    return books_added + books_updated
+
+
+def get_all_books(db: Session, limit: int = 100) -> List[Book]:
+    """
+    Get all books from database
+    """
+    return db.query(Book).order_by(
+        Book.average_rating.desc(),
+        Book.ratings_count.desc()
+    ).limit(limit).all()
+
+
+def get_books_by_category(db: Session, category: str, limit: int = 20) -> List[Book]:
+    """
+    Get books by category
+    """
+    from sqlalchemy import cast, String
+
+    return db.query(Book).filter(
+        cast(Book.categories, String).contains(category)
+    ).order_by(Book.average_rating.desc()).limit(limit).all()
+
+
+def get_book_stats(db: Session) -> Dict:
+    """
+    Get statistics about books in database
+    """
+    total_books = db.query(func.count(Book.id)).scalar()
+
+    avg_rating = db.query(func.avg(Book.average_rating)).scalar()
+
+    return {
+        'total_books': total_books,
+        'average_rating': round(float(avg_rating), 2) if avg_rating else 0
+    }
