@@ -1,29 +1,14 @@
-# Python environment
-venv/
-env/
-.env
-myenv/
 __pycache__/
 *.py[cod]
-*$py.class
-
-# Database
-*.sqlite3
+venv/
+myenv/
+.env
+.env.local
 *.db
-postgress_data/
-
-# Machine Learning & Data
-.ipynb_checkpoints/
-*.csv
-*.pkl
-*.joblib
-
-# IDEs and OS
+*.sqlite3
 .vscode/
 .idea/
+data/*.csv
+data/actors_raw.json
+data/anime_characters_raw.json
 .DS_Store
-Thumbs.db
-
-# FastAPI / Logs
-*.log
-.pytest_cache/
