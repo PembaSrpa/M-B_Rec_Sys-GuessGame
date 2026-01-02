@@ -1,14 +1,18 @@
 import os
 from dotenv import load_dotenv
+
+# MUST happen first
+load_dotenv()
+if os.getenv("RAILWAY_DATABASE_URL"):
+    os.environ["DATABASE_URL"] = os.getenv("RAILWAY_DATABASE_URL")
+
+# NOW you can import these
 from app.services.tmdb_service import TMDBService
 from app.services.books_service import GoogleBooksService
 from app.database.db import SessionLocal, init_db
 from app.database.crud import save_movies_bulk, save_books_bulk
-import json
 from app.database.models import Character
-
-load_dotenv()
-
+import json
 
 def seed_movies(pages=25):
     api_key = os.getenv("TMDB_API_KEY")
@@ -28,7 +32,6 @@ def seed_movies(pages=25):
         finally:
             db.close()
 
-
 def seed_books(books_per_genre=25):
     print("[*] Seeding books...")
     service = GoogleBooksService()
@@ -41,7 +44,6 @@ def seed_books(books_per_genre=25):
             print(f"[SUCCESS] Seeded {len(books_df)} books")
         finally:
             db.close()
-
 
 def seed_characters():
     print("[*] Seeding characters...")
@@ -93,7 +95,6 @@ def seed_characters():
     finally:
         db.close()
 
-
 def main():
     print("\n" + "="*60)
     print("SEEDING PRODUCTION DATABASE")
@@ -109,7 +110,6 @@ def main():
     print("\n" + "="*60)
     print("SEEDING COMPLETE")
     print("="*60 + "\n")
-
 
 if __name__ == "__main__":
     main()
