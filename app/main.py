@@ -21,7 +21,8 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:3000",
-        "https://movie-recommendation-frontend.vercel.app",
+        "https://your-new-render-url.onrender.com",
+        "https://movie-recommendation-frontend-ochre.vercel.app"
     ],
     # Use regex to allow all Vercel subdomains
     allow_origin_regex=r"https://.*\.vercel\.app",

@@ -2,8 +2,15 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker, Session
 from dotenv import load_dotenv
 import os
+import re
 from app.database.models import Base
 
+uri = os.getenv("DATABASE_URL")
+# Fix for SQLAlchemy compatibility with newer Postgres URIs
+if uri and uri.startswith("postgres://"):
+    uri = uri.replace("postgres://", "postgresql://", 1)
+
+engine = create_engine(uri)
 # Load environment variables
 load_dotenv()
 
