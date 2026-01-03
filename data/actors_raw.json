@@ -2,7 +2,7 @@
   {
     "tmdb_id": 3128782,
     "name": "Nell Fisher",
-    "popularity": 72.7704,
+    "popularity": 97.8133,
     "profile_path": "/sBD7AFNCUuaqD443TBBFiAVHAHI.jpg",
     "known_for_department": "Acting",
     "known_for": [
@@ -10,44 +10,44 @@
       "Evil Dead Rise"
     ],
     "genres": [
-      "Unknown(10765)",
-      "Adventure",
-      "Family",
-      "Thriller",
-      "Mystery",
-      "Comedy",
-      "Horror",
       "Drama",
-      "Unknown(10759)"
+      "Mystery",
+      "Thriller",
+      "Unknown(10759)",
+      "Adventure",
+      "Horror",
+      "Comedy",
+      "Unknown(10765)",
+      "Family"
     ]
   },
   {
     "tmdb_id": 3073181,
     "name": "Riya Shibu",
-    "popularity": 72.0662,
+    "popularity": 79.3474,
     "profile_path": "/6L1EJJCfCZRnMMxDeHXq5cFViyk.jpg",
     "known_for_department": "Acting",
     "known_for": [
-      "Cup",
-      "Sarvam Maya"
+      "Sarvam Maya",
+      "Cup"
     ],
     "genres": [
-      "Family",
-      "Comedy",
-      "Horror",
       "Drama",
-      "Action"
+      "Action",
+      "Horror",
+      "Comedy",
+      "Family"
     ]
   },
   {
     "tmdb_id": 2650306,
     "name": "He Yu",
-    "popularity": 64.7095,
+    "popularity": 57.3195,
     "profile_path": "/xgXKg2EgqrCGKghJ1QEkJ1dCSEf.jpg",
     "known_for_department": "Acting",
     "known_for": [
       "The Legend of ShenLi",
-      "Sword and Fairy 1"
+      "Speed and Love"
     ],
     "genres": [
       "Drama",
@@ -55,49 +55,9 @@
     ]
   },
   {
-    "tmdb_id": 115440,
-    "name": "Sydney Sweeney",
-    "popularity": 42.2265,
-    "profile_path": "/uDnIdU4KGjQg7liFvb9wnALvg95.jpg",
-    "known_for_department": "Acting",
-    "known_for": [
-      "Euphoria",
-      "Anyone But You"
-    ],
-    "genres": [
-      "Romance",
-      "Mystery",
-      "Comedy",
-      "Thriller",
-      "Horror",
-      "Drama"
-    ]
-  },
-  {
-    "tmdb_id": 2426851,
-    "name": "Clara Stack",
-    "popularity": 38.1234,
-    "profile_path": "/yMK3IADqV2oReJMKdkrcEIBxdtu.jpg",
-    "known_for_department": "Acting",
-    "known_for": [
-      "IT: Welcome to Derry",
-      "The Naughty Nine"
-    ],
-    "genres": [
-      "Crime",
-      "Adventure",
-      "Family",
-      "Mystery",
-      "Comedy",
-      "Drama",
-      "TV Movie",
-      "Unknown(10759)"
-    ]
-  },
-  {
     "tmdb_id": 1356210,
     "name": "Millie Bobby Brown",
-    "popularity": 35.4299,
+    "popularity": 46.7489,
     "profile_path": "/yr61C2oLZiUlHmySso2Wc5MTv20.jpg",
     "known_for_department": "Acting",
     "known_for": [
@@ -105,19 +65,19 @@
       "Enola Holmes"
     ],
     "genres": [
-      "Crime",
-      "Fantasy",
-      "Unknown(10765)",
-      "Adventure",
       "Mystery",
       "Action",
-      "Unknown(10759)"
+      "Fantasy",
+      "Unknown(10759)",
+      "Crime",
+      "Adventure",
+      "Unknown(10765)"
     ]
   },
   {
     "tmdb_id": 1590797,
     "name": "Sadie Sink",
-    "popularity": 34.7024,
+    "popularity": 44.5558,
     "profile_path": "/fV0KHJcK3fYX2acMorDUf1Uv9mY.jpg",
     "known_for_department": "Acting",
     "known_for": [
@@ -125,53 +85,17 @@
       "The Whale"
     ],
     "genres": [
-      "Unknown(10765)",
+      "Drama",
       "Mystery",
+      "Unknown(10759)",
       "Horror",
-      "Drama",
-      "Unknown(10759)"
-    ]
-  },
-  {
-    "tmdb_id": 2019485,
-    "name": "Kayla Wallace",
-    "popularity": 34.1047,
-    "profile_path": "/yeXPErkuJr3gLNeYOuATt27Z8Kr.jpg",
-    "known_for_department": "Acting",
-    "known_for": [
-      "Descendants",
-      "Landman"
-    ],
-    "genres": [
-      "Romance",
-      "Fantasy",
-      "Adventure",
-      "Family",
-      "Comedy",
-      "TV Movie",
-      "Drama",
-      "Music"
-    ]
-  },
-  {
-    "tmdb_id": 3783,
-    "name": "Brigitte Bardot",
-    "popularity": 29.5029,
-    "profile_path": "/prEu5JJslUBTjOSAxsO9VU4OoYq.jpg",
-    "known_for_department": "Acting",
-    "known_for": [
-      "Contempt",
-      "...And God Created Woman"
-    ],
-    "genres": [
-      "Drama",
-      "Romance"
+      "Unknown(10765)"
     ]
   },
   {
     "tmdb_id": 1039011,
     "name": "Natalia Dyer",
-    "popularity": 28.1496,
+    "popularity": 39.4831,
     "profile_path": "/cQaa3XEiUTgJxp85VeFYFyblJIH.jpg",
     "known_for_department": "Acting",
     "known_for": [
@@ -179,81 +103,18 @@
       "Yes, God, Yes"
     ],
     "genres": [
-      "Unknown(10765)",
-      "Mystery",
-      "Comedy",
-      "Horror",
       "Drama",
-      "Unknown(10759)"
-    ]
-  },
-  {
-    "tmdb_id": 1442069,
-    "name": "Finn Wolfhard",
-    "popularity": 27.6659,
-    "profile_path": "/5OVmquAk0W5BIsRlVKslEP497JD.jpg",
-    "known_for_department": "Acting",
-    "known_for": [
-      "It",
-      "Stranger Things"
-    ],
-    "genres": [
-      "Fantasy",
-      "Unknown(10765)",
-      "Adventure",
       "Mystery",
-      "Thriller",
-      "Comedy",
+      "Unknown(10759)",
       "Horror",
-      "Science Fiction",
-      "Unknown(10759)"
-    ]
-  },
-  {
-    "tmdb_id": 1903874,
-    "name": "Maya Hawke",
-    "popularity": 26.5582,
-    "profile_path": "/wzRfh5JMZcSRV7Oc7GtfrYSBrGU.jpg",
-    "known_for_department": "Acting",
-    "known_for": [
-      "Inside Out 2",
-      "Stranger Things"
-    ],
-    "genres": [
-      "Animation",
-      "Unknown(10765)",
-      "Family",
-      "Adventure",
-      "Mystery",
       "Comedy",
-      "Thriller",
-      "Drama",
-      "Unknown(10759)"
-    ]
-  },
-  {
-    "tmdb_id": 5081,
-    "name": "Emily Blunt",
-    "popularity": 25.4831,
-    "profile_path": "/5nCSG5TL1bP1geD8aaBfaLnLLCD.jpg",
-    "known_for_department": "Acting",
-    "known_for": [
-      "A Quiet Place",
-      "Sicario"
-    ],
-    "genres": [
-      "Crime",
-      "Thriller",
-      "Horror",
-      "Drama",
-      "Action",
-      "Science Fiction"
+      "Unknown(10765)"
     ]
   },
   {
     "tmdb_id": 2713,
     "name": "Linda Hamilton",
-    "popularity": 24.6795,
+    "popularity": 39.339,
     "profile_path": "/7FNn9Z5xkRS9EFbGL2tpmpph9xV.jpg",
     "known_for_department": "Acting",
     "known_for": [
@@ -262,15 +123,120 @@
     ],
     "genres": [
       "Action",
-      "Adventure",
       "Science Fiction",
-      "Thriller"
+      "Thriller",
+      "Adventure"
+    ]
+  },
+  {
+    "tmdb_id": 115440,
+    "name": "Sydney Sweeney",
+    "popularity": 39.247,
+    "profile_path": "/qYiaSl0Eb7G3VaxOg8PxExCFwon.jpg",
+    "known_for_department": "Acting",
+    "known_for": [
+      "Euphoria",
+      "Anyone But You"
+    ],
+    "genres": [
+      "Drama",
+      "Mystery",
+      "Thriller",
+      "Horror",
+      "Comedy",
+      "Romance"
+    ]
+  },
+  {
+    "tmdb_id": 83356,
+    "name": "Jamie Campbell Bower",
+    "popularity": 38.7526,
+    "profile_path": "/jVAkrPb3lNHZLerfzVxTzh170L7.jpg",
+    "known_for_department": "Acting",
+    "known_for": [
+      "The Mortal Instruments: City of Bones",
+      "Stranger Things"
+    ],
+    "genres": [
+      "Drama",
+      "Mystery",
+      "Action",
+      "Fantasy",
+      "Unknown(10759)",
+      "Horror",
+      "Unknown(10765)"
+    ]
+  },
+  {
+    "tmdb_id": 1903874,
+    "name": "Maya Hawke",
+    "popularity": 37.7006,
+    "profile_path": "/wzRfh5JMZcSRV7Oc7GtfrYSBrGU.jpg",
+    "known_for_department": "Acting",
+    "known_for": [
+      "Inside Out 2",
+      "Stranger Things"
+    ],
+    "genres": [
+      "Drama",
+      "Mystery",
+      "Thriller",
+      "Unknown(10759)",
+      "Animation",
+      "Adventure",
+      "Comedy",
+      "Unknown(10765)",
+      "Family"
+    ]
+  },
+  {
+    "tmdb_id": 1442069,
+    "name": "Finn Wolfhard",
+    "popularity": 36.994,
+    "profile_path": "/5OVmquAk0W5BIsRlVKslEP497JD.jpg",
+    "known_for_department": "Acting",
+    "known_for": [
+      "Stranger Things",
+      "It"
+    ],
+    "genres": [
+      "Drama",
+      "Science Fiction",
+      "Mystery",
+      "Thriller",
+      "Fantasy",
+      "Unknown(10759)",
+      "Adventure",
+      "Horror",
+      "Comedy",
+      "Unknown(10765)"
+    ]
+  },
+  {
+    "tmdb_id": 2019485,
+    "name": "Kayla Wallace",
+    "popularity": 36.2276,
+    "profile_path": "/yeXPErkuJr3gLNeYOuATt27Z8Kr.jpg",
+    "known_for_department": "Acting",
+    "known_for": [
+      "Descendants",
+      "Landman"
+    ],
+    "genres": [
+      "Drama",
+      "TV Movie",
+      "Fantasy",
+      "Music",
+      "Adventure",
+      "Comedy",
+      "Romance",
+      "Family"
     ]
   },
   {
     "tmdb_id": 2113005,
     "name": "Zhao Jinmai",
-    "popularity": 21.9892,
+    "popularity": 32.2368,
     "profile_path": "/hndhOhSK0GAMi1qQaacacl3aHzO.jpg",
     "known_for_department": "Acting",
     "known_for": [
@@ -278,123 +244,52 @@
       "One Week Friends"
     ],
     "genres": [
-      "Drama",
       "Action",
-      "Mystery",
-      "Science Fiction"
+      "Drama",
+      "Science Fiction",
+      "Mystery"
     ]
   },
   {
-    "tmdb_id": 1245,
-    "name": "Scarlett Johansson",
-    "popularity": 21.7806,
-    "profile_path": "/mjReG6rR7NPMEIWb1T4YWtV11ty.jpg",
+    "tmdb_id": 2426851,
+    "name": "Clara Stack",
+    "popularity": 29.6424,
+    "profile_path": "/yMK3IADqV2oReJMKdkrcEIBxdtu.jpg",
     "known_for_department": "Acting",
     "known_for": [
-      "Lucy",
-      "Black Widow"
+      "IT: Welcome to Derry",
+      "The Naughty Nine"
     ],
     "genres": [
       "Drama",
-      "Action",
+      "TV Movie",
+      "Mystery",
+      "Unknown(10759)",
+      "Crime",
       "Adventure",
-      "Science Fiction"
-    ]
-  },
-  {
-    "tmdb_id": 224513,
-    "name": "Ana de Armas",
-    "popularity": 21.627,
-    "profile_path": "/5Qne374OM0ewMM7uSN9eq9jNrWq.jpg",
-    "known_for_department": "Acting",
-    "known_for": [
-      "Blade Runner 2049",
-      "Knives Out"
-    ],
-    "genres": [
-      "Crime",
-      "Mystery",
       "Comedy",
-      "Thriller",
-      "Drama",
-      "Action",
-      "Science Fiction"
+      "Family"
     ]
   },
   {
-    "tmdb_id": 2049994,
-    "name": "Zhao Lusi",
-    "popularity": 20.8136,
-    "profile_path": "/y82wmaDqTdXqvtasb4kxAIuT44U.jpg",
+    "tmdb_id": 3783,
+    "name": "Brigitte Bardot",
+    "popularity": 26.5515,
+    "profile_path": "/prEu5JJslUBTjOSAxsO9VU4OoYq.jpg",
     "known_for_department": "Acting",
     "known_for": [
-      "Hidden Love",
-      "I Hear You"
+      "Contempt",
+      "...And God Created Woman"
     ],
     "genres": [
-      "Drama",
-      "Comedy"
-    ]
-  },
-  {
-    "tmdb_id": 2049994,
-    "name": "Zhao Lusi",
-    "popularity": 20.8136,
-    "profile_path": "/y82wmaDqTdXqvtasb4kxAIuT44U.jpg",
-    "known_for_department": "Acting",
-    "known_for": [
-      "Hidden Love",
-      "I Hear You"
-    ],
-    "genres": [
-      "Drama",
-      "Comedy"
-    ]
-  },
-  {
-    "tmdb_id": 976,
-    "name": "Jason Statham",
-    "popularity": 20.6505,
-    "profile_path": "/o7sfT7EBtzxwiJiKmCafoebJQ2q.jpg",
-    "known_for_department": "Acting",
-    "known_for": [
-      "Snatch",
-      "The Meg"
-    ],
-    "genres": [
-      "Crime",
-      "Thriller",
-      "Comedy",
-      "Horror",
-      "Drama",
-      "Action",
-      "Science Fiction"
-    ]
-  },
-  {
-    "tmdb_id": 976,
-    "name": "Jason Statham",
-    "popularity": 20.6505,
-    "profile_path": "/o7sfT7EBtzxwiJiKmCafoebJQ2q.jpg",
-    "known_for_department": "Acting",
-    "known_for": [
-      "Snatch",
-      "The Meg"
-    ],
-    "genres": [
-      "Crime",
-      "Thriller",
-      "Comedy",
-      "Horror",
-      "Drama",
-      "Action",
-      "Science Fiction"
+      "Romance",
+      "Drama"
     ]
   },
   {
     "tmdb_id": 1474123,
     "name": "Caleb McLaughlin",
-    "popularity": 19.8292,
+    "popularity": 26.1042,
     "profile_path": "/4jVS3EziBn7bf97ErxkW7jsdiLM.jpg",
     "known_for_department": "Acting",
     "known_for": [
@@ -402,53 +297,37 @@
       "The Deliverance"
     ],
     "genres": [
-      "Unknown(10765)",
-      "Thriller",
+      "Drama",
       "Mystery",
-      "Western",
+      "Thriller",
+      "Unknown(10759)",
       "Horror",
-      "Drama",
-      "Unknown(10759)"
+      "Western",
+      "Unknown(10765)"
     ]
   },
   {
-    "tmdb_id": 3455931,
-    "name": "Truman Hanks",
-    "popularity": 19.6093,
-    "profile_path": "/6ERfNyCNxGWnsTniEM8bfMk8TsL.jpg",
+    "tmdb_id": 1653291,
+    "name": "Gaten Matarazzo",
+    "popularity": 26.0551,
+    "profile_path": "/alVT7oDp8N5G9WLIApI9jqeuqHq.jpg",
     "known_for_department": "Acting",
     "known_for": [
-      "A Man Called Otto",
-      "The Swan"
+      "Stranger Things",
+      "Prank Encounters"
     ],
     "genres": [
-      "Drama",
-      "Adventure",
-      "Western",
-      "Comedy"
-    ]
-  },
-  {
-    "tmdb_id": 3455931,
-    "name": "Truman Hanks",
-    "popularity": 19.6093,
-    "profile_path": "/6ERfNyCNxGWnsTniEM8bfMk8TsL.jpg",
-    "known_for_department": "Acting",
-    "known_for": [
-      "A Man Called Otto",
-      "The Swan"
-    ],
-    "genres": [
-      "Drama",
-      "Adventure",
-      "Western",
-      "Comedy"
+      "Mystery",
+      "Unknown(10764)",
+      "Unknown(10759)",
+      "Comedy",
+      "Unknown(10765)"
     ]
   },
   {
     "tmdb_id": 20047,
     "name": "Cara Buono",
-    "popularity": 19.492,
+    "popularity": 25.8174,
     "profile_path": "/QQv5pitEXvrGR4sgECvNDLwhTG.jpg",
     "known_for_department": "Acting",
     "known_for": [
@@ -456,20 +335,300 @@
       "Hulk"
     ],
     "genres": [
-      "Romance",
-      "Unknown(10765)",
-      "Adventure",
-      "Mystery",
       "Drama",
-      "Action",
       "Science Fiction",
-      "Unknown(10759)"
+      "Mystery",
+      "Action",
+      "Unknown(10759)",
+      "Adventure",
+      "Unknown(10765)",
+      "Romance"
+    ]
+  },
+  {
+    "tmdb_id": 1467219,
+    "name": "Joe Keery",
+    "popularity": 25.3335,
+    "profile_path": "/8B45gAoJx4OvrYqCWid51MBXfeK.jpg",
+    "known_for_department": "Acting",
+    "known_for": [
+      "Free Guy",
+      "Stranger Things"
+    ],
+    "genres": [
+      "Science Fiction",
+      "Mystery",
+      "Thriller",
+      "Unknown(10759)",
+      "Crime",
+      "Adventure",
+      "Horror",
+      "Comedy",
+      "Unknown(10765)"
+    ]
+  },
+  {
+    "tmdb_id": 1393177,
+    "name": "Noah Schnapp",
+    "popularity": 24.7991,
+    "profile_path": "/1nJu2rvvcLkyVUCXpxeYVePE9XP.jpg",
+    "known_for_department": "Acting",
+    "known_for": [
+      "Stranger Things",
+      "The Peanuts Movie"
+    ],
+    "genres": [
+      "Drama",
+      "Mystery",
+      "Thriller",
+      "Unknown(10759)",
+      "Animation",
+      "Comedy",
+      "Unknown(10765)",
+      "Family"
+    ]
+  },
+  {
+    "tmdb_id": 1393177,
+    "name": "Noah Schnapp",
+    "popularity": 24.7991,
+    "profile_path": "/1nJu2rvvcLkyVUCXpxeYVePE9XP.jpg",
+    "known_for_department": "Acting",
+    "known_for": [
+      "Stranger Things",
+      "The Peanuts Movie"
+    ],
+    "genres": [
+      "Drama",
+      "Mystery",
+      "Thriller",
+      "Unknown(10759)",
+      "Animation",
+      "Comedy",
+      "Unknown(10765)",
+      "Family"
+    ]
+  },
+  {
+    "tmdb_id": 224513,
+    "name": "Ana de Armas",
+    "popularity": 22.0587,
+    "profile_path": "/5Qne374OM0ewMM7uSN9eq9jNrWq.jpg",
+    "known_for_department": "Acting",
+    "known_for": [
+      "Blade Runner 2049",
+      "Knives Out"
+    ],
+    "genres": [
+      "Drama",
+      "Science Fiction",
+      "Mystery",
+      "Thriller",
+      "Action",
+      "Crime",
+      "Comedy"
+    ]
+  },
+  {
+    "tmdb_id": 224197,
+    "name": "Brett Gelman",
+    "popularity": 21.7569,
+    "profile_path": "/ub2IuMWFNQGYghHTPq0lpmn2Ue0.jpg",
+    "known_for_department": "Acting",
+    "known_for": [
+      "Stranger Things",
+      "Tom Clancy's Without Remorse"
+    ],
+    "genres": [
+      "War",
+      "Mystery",
+      "Thriller",
+      "Action",
+      "Unknown(10759)",
+      "Animation",
+      "Comedy",
+      "Unknown(10765)"
+    ]
+  },
+  {
+    "tmdb_id": 5081,
+    "name": "Emily Blunt",
+    "popularity": 21.5491,
+    "profile_path": "/5nCSG5TL1bP1geD8aaBfaLnLLCD.jpg",
+    "known_for_department": "Acting",
+    "known_for": [
+      "A Quiet Place",
+      "Sicario"
+    ],
+    "genres": [
+      "Drama",
+      "Science Fiction",
+      "Thriller",
+      "Action",
+      "Crime",
+      "Horror"
+    ]
+  },
+  {
+    "tmdb_id": 2049994,
+    "name": "Zhao Lusi",
+    "popularity": 20.805,
+    "profile_path": "/y82wmaDqTdXqvtasb4kxAIuT44U.jpg",
+    "known_for_department": "Acting",
+    "known_for": [
+      "Hidden Love",
+      "I Hear You"
+    ],
+    "genres": [
+      "Drama",
+      "Comedy"
+    ]
+  },
+  {
+    "tmdb_id": 2029806,
+    "name": "Priah Ferguson",
+    "popularity": 20.6481,
+    "profile_path": "/zqkcm7q70OrYtfKBJmEjrk3LuYd.jpg",
+    "known_for_department": "Acting",
+    "known_for": [
+      "Stranger Things",
+      "The Curse of Bridge Hollow"
+    ],
+    "genres": [
+      "Unknown(10762)",
+      "Mystery",
+      "Unknown(10759)",
+      "Animation",
+      "Adventure",
+      "Horror",
+      "Comedy",
+      "Unknown(10765)",
+      "Family"
+    ]
+  },
+  {
+    "tmdb_id": 1245,
+    "name": "Scarlett Johansson",
+    "popularity": 20.3969,
+    "profile_path": "/mjReG6rR7NPMEIWb1T4YWtV11ty.jpg",
+    "known_for_department": "Acting",
+    "known_for": [
+      "Lucy",
+      "Black Widow"
+    ],
+    "genres": [
+      "Action",
+      "Drama",
+      "Science Fiction",
+      "Adventure"
+    ]
+  },
+  {
+    "tmdb_id": 3119212,
+    "name": "Raphael Luce",
+    "popularity": 20.372,
+    "profile_path": "/nKiboEmmgxAF7xUNSPYN56ANnak.jpg",
+    "known_for_department": "Acting",
+    "known_for": [
+      "Dracula",
+      "Stranger Things"
+    ],
+    "genres": [
+      "Drama",
+      "Mystery",
+      "Fantasy",
+      "Unknown(10759)",
+      "Horror",
+      "Unknown(10765)",
+      "Romance"
+    ]
+  },
+  {
+    "tmdb_id": 1646,
+    "name": "Udo Kier",
+    "popularity": 20.2774,
+    "profile_path": "/lIOGDMvrVHMgPXdhicLI41tY1zf.jpg",
+    "known_for_department": "Acting",
+    "known_for": [
+      "Blade",
+      "Ace Ventura: Pet Detective"
+    ],
+    "genres": [
+      "Drama",
+      "Science Fiction",
+      "Mystery",
+      "Action",
+      "Crime",
+      "Horror",
+      "Comedy"
+    ]
+  },
+  {
+    "tmdb_id": 2134661,
+    "name": "Sydney Bullock",
+    "popularity": 19.919,
+    "profile_path": "/kH01VhaMPf4czUPl1XZ0TrNMu4O.jpg",
+    "known_for_department": "Acting",
+    "known_for": [
+      "Goosebumps 2: Haunted Halloween",
+      "Stranger Things"
+    ],
+    "genres": [
+      "Drama",
+      "Mystery",
+      "Unknown(10766)",
+      "Fantasy",
+      "Unknown(10759)",
+      "Horror",
+      "Comedy",
+      "Unknown(10765)",
+      "Family"
+    ]
+  },
+  {
+    "tmdb_id": 976,
+    "name": "Jason Statham",
+    "popularity": 19.8657,
+    "profile_path": "/o7sfT7EBtzxwiJiKmCafoebJQ2q.jpg",
+    "known_for_department": "Acting",
+    "known_for": [
+      "Snatch",
+      "The Meg"
+    ],
+    "genres": [
+      "Drama",
+      "Science Fiction",
+      "Thriller",
+      "Action",
+      "Crime",
+      "Horror",
+      "Comedy"
+    ]
+  },
+  {
+    "tmdb_id": 1448222,
+    "name": "Charlie Heaton",
+    "popularity": 19.6743,
+    "profile_path": "/8Se6WZuvRmoB990bT29OPgVAyBo.jpg",
+    "known_for_department": "Acting",
+    "known_for": [
+      "Stranger Things",
+      "The New Mutants"
+    ],
+    "genres": [
+      "Science Fiction",
+      "Mystery",
+      "Thriller",
+      "Action",
+      "Unknown(10759)",
+      "Horror",
+      "Unknown(10765)"
     ]
   },
   {
     "tmdb_id": 18050,
     "name": "Elle Fanning",
-    "popularity": 19.4115,
+    "popularity": 19.077,
     "profile_path": "/e8CUyxQSE99y5IOfzSLtHC0B0Ch.jpg",
     "known_for_department": "Acting",
     "known_for": [
@@ -477,64 +636,96 @@
       "The Neon Demon"
     ],
     "genres": [
-      "Romance",
+      "Science Fiction",
+      "Mystery",
+      "Thriller",
+      "Action",
       "Fantasy",
       "Adventure",
-      "Family",
-      "Thriller",
-      "Mystery",
       "Horror",
-      "Action",
-      "Science Fiction"
+      "Romance",
+      "Family"
     ]
   },
   {
-    "tmdb_id": 1467219,
-    "name": "Joe Keery",
-    "popularity": 18.8353,
-    "profile_path": "/ayIAVLMfZGEGIFwAo3pPnY7p59.jpg",
+    "tmdb_id": 2558716,
+    "name": "Victoria Jones",
+    "popularity": 19.0765,
+    "profile_path": null,
     "known_for_department": "Acting",
     "known_for": [
-      "Free Guy",
+      "Men in Black II",
+      "The Three Burials of Melquiades Estrada"
+    ],
+    "genres": [
+      "Drama",
+      "Science Fiction",
+      "Mystery",
+      "Action",
+      "Crime",
+      "Adventure",
+      "Comedy",
+      "Western"
+    ]
+  },
+  {
+    "tmdb_id": 1525047,
+    "name": "Dacre Montgomery",
+    "popularity": 18.3966,
+    "profile_path": "/v5zhoNq2RgnUEtSLAFLOPLTJWCT.jpg",
+    "known_for_department": "Acting",
+    "known_for": [
+      "Power Rangers",
       "Stranger Things"
     ],
     "genres": [
-      "Crime",
-      "Unknown(10765)",
-      "Adventure",
-      "Mystery",
-      "Comedy",
-      "Thriller",
-      "Horror",
+      "Drama",
       "Science Fiction",
-      "Unknown(10759)"
+      "Mystery",
+      "History",
+      "Action",
+      "Unknown(10759)",
+      "Music",
+      "Adventure",
+      "Unknown(10765)"
     ]
   },
   {
-    "tmdb_id": 1393177,
-    "name": "Noah Schnapp",
-    "popularity": 18.7227,
-    "profile_path": "/6NIffxe2yZm6OmOwulY19govKRs.jpg",
+    "tmdb_id": 135685,
+    "name": "Nikola Pešková",
+    "popularity": 18.2061,
+    "profile_path": "/W0ec5yPCkMUXatiFHFP8u1qglc.jpg",
     "known_for_department": "Acting",
     "known_for": [
-      "Stranger Things",
-      "The Peanuts Movie"
+      "Pupendo"
     ],
     "genres": [
-      "Animation",
-      "Unknown(10765)",
-      "Family",
-      "Mystery",
-      "Comedy",
-      "Thriller",
       "Drama",
-      "Unknown(10759)"
+      "Comedy"
+    ]
+  },
+  {
+    "tmdb_id": 14106,
+    "name": "Alice Hirson",
+    "popularity": 17.8736,
+    "profile_path": "/pywSDdYkFKIONFmbv8bXtX6PlbJ.jpg",
+    "known_for_department": "Acting",
+    "known_for": [
+      "Starstruck",
+      "Being There"
+    ],
+    "genres": [
+      "Drama",
+      "TV Movie",
+      "Music",
+      "Comedy",
+      "Romance"
     ]
   },
   {
     "tmdb_id": 17303,
     "name": "Ali Larter",
-    "popularity": 18.6685,
+    "popularity": 17.7807,
     "profile_path": "/2HOlaSd30yBCrr366GfPG2PF6D8.jpg",
     "known_for_department": "Acting",
     "known_for": [
@@ -543,181 +734,53 @@
     ],
     "genres": [
       "Action",
-      "Science Fiction",
-      "Mystery",
-      "Horror"
-    ]
-  },
-  {
-    "tmdb_id": 2283930,
-    "name": "Piper Rubio",
-    "popularity": 18.6591,
-    "profile_path": "/5Bt8p5uRlfLjOn64k1gTiSjmL8q.jpg",
-    "known_for_department": "Acting",
-    "known_for": [
-      "Five Nights at Freddy's",
-      "Five Nights at Freddy's 2"
-    ],
-    "genres": [
-      "TV Movie",
-      "Romance",
-      "Thriller",
-      "Horror"
-    ]
-  },
-  {
-    "tmdb_id": 74542,
-    "name": "Barbara Rush",
-    "popularity": 18.6342,
-    "profile_path": "/nYSMStU1GL4sNm1WpC2hFoliKMr.jpg",
-    "known_for_department": "Acting",
-    "known_for": [
-      "It Came from Outer Space",
-      "When Worlds Collide"
-    ],
-    "genres": [
-      "Drama",
-      "Science Fiction",
-      "Horror"
-    ]
-  },
-  {
-    "tmdb_id": 1920,
-    "name": "Winona Ryder",
-    "popularity": 18.3755,
-    "profile_path": "/uZaGuCvf18wKhaYL0IfYJv48yhE.jpg",
-    "known_for_department": "Acting",
-    "known_for": [
-      "Stranger Things",
-      "Edward Scissorhands"
-    ],
-    "genres": [
-      "Romance",
-      "Fantasy",
-      "Unknown(10765)",
-      "Mystery",
-      "Drama",
-      "Unknown(10759)"
-    ]
-  },
-  {
-    "tmdb_id": 1653291,
-    "name": "Gaten Matarazzo",
-    "popularity": 18.0342,
-    "profile_path": "/alVT7oDp8N5G9WLIApI9jqeuqHq.jpg",
-    "known_for_department": "Acting",
-    "known_for": [
-      "Stranger Things",
-      "Prank Encounters"
-    ],
-    "genres": [
-      "Unknown(10765)",
-      "Unknown(10764)",
-      "Mystery",
-      "Comedy",
-      "Unknown(10759)"
-    ]
-  },
-  {
-    "tmdb_id": 974169,
-    "name": "Jenna Ortega",
-    "popularity": 17.4697,
-    "profile_path": "/cV4x7jNmsGLdKZn5I6xVF3Ltnmg.jpg",
-    "known_for_department": "Acting",
-    "known_for": [
-      "Wednesday",
-      "X"
-    ],
-    "genres": [
-      "Unknown(10765)",
-      "Thriller",
-      "Comedy",
-      "Mystery",
-      "Horror"
-    ]
-  },
-  {
-    "tmdb_id": 41229,
-    "name": "Meg Foster",
-    "popularity": 17.1591,
-    "profile_path": "/6T6GeL0hNcsI5xtf4I5QMJv6xB7.jpg",
-    "known_for_department": "Acting",
-    "known_for": [
-      "They Live",
-      "Masters of the Universe"
-    ],
-    "genres": [
-      "Fantasy",
-      "Adventure",
-      "Thriller",
       "Horror",
+      "Science Fiction",
+      "Mystery"
+    ]
+  },
+  {
+    "tmdb_id": 3455931,
+    "name": "Truman Hanks",
+    "popularity": 17.3982,
+    "profile_path": "/6ERfNyCNxGWnsTniEM8bfMk8TsL.jpg",
+    "known_for_department": "Acting",
+    "known_for": [
+      "A Man Called Otto",
+      "The Swan"
+    ],
+    "genres": [
+      "Adventure",
+      "Drama",
+      "Comedy",
+      "Western"
+    ]
+  },
+  {
+    "tmdb_id": 35029,
+    "name": "David Harbour",
+    "popularity": 17.1472,
+    "profile_path": "/qMFtMWlYVtFVyBoBhX5IoA5sN5a.jpg",
+    "known_for_department": "Acting",
+    "known_for": [
+      "Stranger Things",
+      "Hellboy"
+    ],
+    "genres": [
+      "Science Fiction",
+      "Mystery",
       "Action",
-      "Science Fiction"
-    ]
-  },
-  {
-    "tmdb_id": 2850902,
-    "name": "Joe Anders",
-    "popularity": 17.0652,
-    "profile_path": "/imi9e0vDtdlgF4WxsSrz3uqh605.jpg",
-    "known_for_department": "Acting",
-    "known_for": [
-      "1917",
-      "Lee"
-    ],
-    "genres": [
-      "Romance",
-      "Music",
-      "Comedy",
-      "History",
-      "War",
-      "Drama",
-      "Action"
-    ]
-  },
-  {
-    "tmdb_id": 31,
-    "name": "Tom Hanks",
-    "popularity": 16.9392,
-    "profile_path": "/eKF1sGJRrZJbfBG1KirPt1cfNd3.jpg",
-    "known_for_department": "Acting",
-    "known_for": [
-      "Forrest Gump",
-      "Toy Story"
-    ],
-    "genres": [
-      "Romance",
-      "Animation",
       "Fantasy",
-      "Crime",
-      "Family",
+      "Unknown(10759)",
       "Adventure",
-      "Comedy",
-      "Drama"
-    ]
-  },
-  {
-    "tmdb_id": 137905,
-    "name": "Bill Skarsgård",
-    "popularity": 16.8822,
-    "profile_path": "/wGQidITqyDl4Igmq9TCQjRpegsk.jpg",
-    "known_for_department": "Acting",
-    "known_for": [
-      "John Wick: Chapter 4",
-      "It"
-    ],
-    "genres": [
-      "Crime",
-      "Thriller",
       "Horror",
-      "Drama",
-      "Action"
+      "Unknown(10765)"
     ]
   },
   {
     "tmdb_id": 880,
     "name": "Ben Affleck",
-    "popularity": 16.6392,
+    "popularity": 17.0856,
     "profile_path": "/aTcqu8cI4wMohU17xTdqmXKTGrw.jpg",
     "known_for_department": "Acting",
     "known_for": [
@@ -725,58 +788,69 @@
       "Batman v Superman: Dawn of Justice"
     ],
     "genres": [
-      "Fantasy",
-      "Adventure",
-      "Thriller",
-      "Mystery",
       "Drama",
-      "Action",
-      "Science Fiction"
-    ]
-  },
-  {
-    "tmdb_id": 2146690,
-    "name": "Linda Lapinsh",
-    "popularity": 16.6144,
-    "profile_path": "/yHfafxWHTlFEzosuydJmXp03loR.jpg",
-    "known_for_department": "Acting",
-    "known_for": [
-      "The Big Game",
-      "GDR"
-    ],
-    "genres": [
-      "Drama",
-      "Crime",
-      "Mystery",
-      "Unknown(10759)"
-    ]
-  },
-  {
-    "tmdb_id": 1525047,
-    "name": "Dacre Montgomery",
-    "popularity": 16.4544,
-    "profile_path": "/v5zhoNq2RgnUEtSLAFLOPLTJWCT.jpg",
-    "known_for_department": "Acting",
-    "known_for": [
-      "Power Rangers",
-      "Stranger Things"
-    ],
-    "genres": [
-      "Unknown(10765)",
-      "Music",
-      "Adventure",
-      "Mystery",
-      "History",
-      "Drama",
-      "Action",
       "Science Fiction",
-      "Unknown(10759)"
+      "Mystery",
+      "Thriller",
+      "Action",
+      "Fantasy",
+      "Adventure"
+    ]
+  },
+  {
+    "tmdb_id": 3164807,
+    "name": "Yoon Yool",
+    "popularity": 16.5232,
+    "profile_path": "/21kdujBeL2hrJ50RyMxmuEsHZAT.jpg",
+    "known_for_department": "Acting",
+    "known_for": [
+      "24 Year Old Yoon Yul's Sexy Breasts",
+      "Dangerous Younger Cousin"
+    ],
+    "genres": [
+      "Romance",
+      "Drama"
+    ]
+  },
+  {
+    "tmdb_id": 17490,
+    "name": "Isiah Whitlock, Jr.",
+    "popularity": 16.3133,
+    "profile_path": "/8OIhQb53rMX7VcTLZbAMeVd7tHc.jpg",
+    "known_for_department": "Acting",
+    "known_for": [
+      "BlacKkKlansman",
+      "I Care a Lot"
+    ],
+    "genres": [
+      "Drama",
+      "Thriller",
+      "History",
+      "Crime",
+      "Comedy"
+    ]
+  },
+  {
+    "tmdb_id": 2283930,
+    "name": "Piper Rubio",
+    "popularity": 16.2784,
+    "profile_path": "/5Bt8p5uRlfLjOn64k1gTiSjmL8q.jpg",
+    "known_for_department": "Acting",
+    "known_for": [
+      "Five Nights at Freddy's",
+      "Five Nights at Freddy's 2"
+    ],
+    "genres": [
+      "Romance",
+      "Horror",
+      "TV Movie",
+      "Thriller"
     ]
   },
   {
     "tmdb_id": 18897,
     "name": "Jackie Chan",
-    "popularity": 16.1866,
+    "popularity": 16.0437,
     "profile_path": "/nraZoTzwJQPHspAVsKfgl3RXKKa.jpg",
     "known_for_department": "Acting",
     "known_for": [
@@ -785,57 +859,95 @@
     ],
     "genres": [
       "Action",
-      "Crime",
-      "Comedy"
-    ]
-  },
-  {
-    "tmdb_id": 2029806,
-    "name": "Priah Ferguson",
-    "popularity": 16.1159,
-    "profile_path": "/zqkcm7q70OrYtfKBJmEjrk3LuYd.jpg",
-    "known_for_department": "Acting",
-    "known_for": [
-      "Stranger Things",
-      "The Curse of Bridge Hollow"
-    ],
-    "genres": [
-      "Animation",
-      "Unknown(10765)",
-      "Adventure",
-      "Family",
-      "Mystery",
       "Comedy",
-      "Horror",
-      "Unknown(10762)",
-      "Unknown(10759)"
+      "Crime"
     ]
   },
   {
-    "tmdb_id": 224197,
-    "name": "Brett Gelman",
-    "popularity": 15.731,
-    "profile_path": "/ub2IuMWFNQGYghHTPq0lpmn2Ue0.jpg",
+    "tmdb_id": 2176,
+    "name": "Tommy Lee Jones",
+    "popularity": 15.9636,
+    "profile_path": "/mCiZNRAzbnPojJEZwVZWLw9kzxR.jpg",
     "known_for_department": "Acting",
     "known_for": [
-      "Stranger Things",
-      "Tom Clancy's Without Remorse"
+      "Men in Black",
+      "Men in Black II"
     ],
     "genres": [
-      "Animation",
-      "Unknown(10765)",
+      "Science Fiction",
       "Thriller",
-      "Mystery",
-      "Comedy",
-      "War",
       "Action",
-      "Unknown(10759)"
+      "Crime",
+      "Adventure",
+      "Comedy",
+      "Western"
+    ]
+  },
+  {
+    "tmdb_id": 137905,
+    "name": "Bill Skarsgård",
+    "popularity": 15.8248,
+    "profile_path": "/wGQidITqyDl4Igmq9TCQjRpegsk.jpg",
+    "known_for_department": "Acting",
+    "known_for": [
+      "John Wick: Chapter 4",
+      "It"
+    ],
+    "genres": [
+      "Drama",
+      "Thriller",
+      "Action",
+      "Crime",
+      "Horror"
+    ]
+  },
+  {
+    "tmdb_id": 1597365,
+    "name": "Joseph Quinn",
+    "popularity": 15.7403,
+    "profile_path": "/zshhuioZaH8S5ZKdMcojzWi1ntl.jpg",
+    "known_for_department": "Acting",
+    "known_for": [
+      "A Quiet Place: Day One",
+      "Gladiator II"
+    ],
+    "genres": [
+      "Drama",
+      "Science Fiction",
+      "Mystery",
+      "Thriller",
+      "Action",
+      "Unknown(10759)",
+      "Adventure",
+      "Horror",
+      "Unknown(10765)"
+    ]
+  },
+  {
+    "tmdb_id": 31,
+    "name": "Tom Hanks",
+    "popularity": 15.6462,
+    "profile_path": "/eKF1sGJRrZJbfBG1KirPt1cfNd3.jpg",
+    "known_for_department": "Acting",
+    "known_for": [
+      "Forrest Gump",
+      "Toy Story"
+    ],
+    "genres": [
+      "Drama",
+      "Fantasy",
+      "Crime",
+      "Animation",
+      "Adventure",
+      "Comedy",
+      "Romance",
+      "Family"
     ]
   },
   {
     "tmdb_id": 1253391,
     "name": "Ji Chang-wook",
-    "popularity": 15.2393,
+    "popularity": 15.4874,
     "profile_path": "/afgwHQJ3BP6ygM2ZUUZO60U84q0.jpg",
     "known_for_department": "Acting",
     "known_for": [
@@ -843,108 +955,13 @@
       "Healer"
     ],
     "genres": [
-      "Crime",
-      "Thriller",
-      "Comedy",
-      "Mystery",
       "Drama",
-      "Action",
-      "Unknown(10759)"
-    ]
-  },
-  {
-    "tmdb_id": 141801,
-    "name": "Paige Tamada",
-    "popularity": 15.1467,
-    "profile_path": "/pORrZ9gppePMsZBHhwRHvNogFU7.jpg",
-    "known_for_department": "Acting",
-    "known_for": [
-      "The Santa Clause",
-      "The Fresh Prince of Bel-Air"
-    ],
-    "genres": [
-      "Fantasy",
-      "Family",
-      "Comedy",
-      "Horror",
-      "Drama"
-    ]
-  },
-  {
-    "tmdb_id": 1190668,
-    "name": "Timothée Chalamet",
-    "popularity": 15.0812,
-    "profile_path": "/dFxpwRpmzpVfP1zjluH68DeQhyj.jpg",
-    "known_for_department": "Acting",
-    "known_for": [
-      "Dune",
-      "Dune: Part Two"
-    ],
-    "genres": [
-      "Drama",
-      "Romance",
-      "Adventure",
-      "Science Fiction"
-    ]
-  },
-  {
-    "tmdb_id": 1209510,
-    "name": "Belinda Giblin",
-    "popularity": 15.0791,
-    "profile_path": "/sqUpvB1cGYu6hBmJjKu14la6a4g.jpg",
-    "known_for_department": "Acting",
-    "known_for": [
-      "Not Quite Hollywood",
-      "Alison's Birthday"
-    ],
-    "genres": [
-      "Action",
-      "Documentary",
-      "Thriller",
-      "Comedy",
-      "Horror",
-      "TV Movie"
-    ]
-  },
-  {
-    "tmdb_id": 1448222,
-    "name": "Charlie Heaton",
-    "popularity": 14.9817,
-    "profile_path": "/8Se6WZuvRmoB990bT29OPgVAyBo.jpg",
-    "known_for_department": "Acting",
-    "known_for": [
-      "Stranger Things",
-      "The New Mutants"
-    ],
-    "genres": [
-      "Unknown(10765)",
       "Mystery",
       "Thriller",
-      "Horror",
       "Action",
-      "Science Fiction",
-      "Unknown(10759)"
-    ]
-  },
-  {
-    "tmdb_id": 109513,
-    "name": "Alexandra Daddario",
-    "popularity": 14.9363,
-    "profile_path": "/lh5zibQXYH1MNqkuX8TmxyNYHhK.jpg",
-    "known_for_department": "Acting",
-    "known_for": [
-      "San Andreas",
-      "Percy Jackson & the Olympians: The Lightning Thief"
-    ],
-    "genres": [
+      "Unknown(10759)",
       "Crime",
-      "Fantasy",
-      "Adventure",
-      "Family",
-      "Thriller",
-      "Comedy",
-      "Drama",
-      "Action"
+      "Comedy"
     ]
   }
 ]
