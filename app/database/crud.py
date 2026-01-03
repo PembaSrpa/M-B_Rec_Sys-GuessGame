@@ -75,3 +75,12 @@ def get_movie_stats(db: Session) -> Dict:
 
 def get_book_stats(db: Session) -> Dict:
     return {'total_books': db.query(func.count(Book.id)).scalar()}
+
+def get_all_movies(db: Session, limit: int = 100) -> List[Movie]:
+    return db.query(Movie).order_by(Movie.popularity.desc()).limit(limit).all()
+
+def get_all_books(db: Session, limit: int = 100) -> List[Book]:
+    return db.query(Book).order_by(
+        Book.average_rating.desc(),
+        Book.ratings_count.desc()
+    ).limit(limit).all()
