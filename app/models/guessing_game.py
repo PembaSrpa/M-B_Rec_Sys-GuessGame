@@ -11,62 +11,66 @@ class CharacterGuessingGame:
         self.question_tree = self._build_question_tree()
 
     def _build_question_tree(self) -> List[Dict]:
-        """
-        Define the decision tree of questions
-        Order matters - most discriminating questions first
-        """
         return [
-            {
-                "id": 1,
-                "question": "Is this character from anime or a real actor?",
-                "field": "type",
-                "type": "exact",
-                "options": ["anime", "actor"]
-            },
-            {
-                "id": 2,
-                "question": "What gender is this character?",
-                "field": "additional_info.gender",
-                "type": "nested",
-                "options": ["male", "female"]
-            },
-            {
-                "id": 3,
-                "question": "Is this character a hero, villain, or anti-hero?",
-                "field": "alignment",
-                "type": "exact",
-                "options": ["hero", "villain", "anti-hero"],
-                "condition": {"type": "anime"}  # Only for anime characters
-            },
-            {
-                "id": 4,
-                "question": "Which trait best describes this character?",
-                "field": "traits",
-                "type": "contains",
-                "options": ["funny", "serious", "determined", "intelligent",
-                           "mysterious", "strong", "charismatic"]
-            },
-            {
-                "id": 5,
-                "question": "What genre is their main work?",
-                "field": "genres",
-                "type": "contains",
-                "options": ["action", "comedy", "drama", "thriller",
-                           "sci-fi", "adventure", "mystery"]
-            },
-            {
-                "id": 6,
-                "question": "How popular/famous is this character?",
-                "field": "popularity_score",
-                "type": "range",
-                "options": {
-                    "Extremely famous (everyone knows them)": (95, 100),
-                    "Very famous": (90, 94),
-                    "Well-known": (85, 89),
-                    "Moderately known": (0, 84)
-                }
+        {
+            "id": 1,
+            "question": "Is this character from anime or a real actor?",
+            "field": "type",
+            "type": "exact",
+            "options": ["anime", "actor"]
+        },
+        {
+            "id": 2,
+            "question": "What gender is this character?",
+            "field": "additional_info.gender",
+            "type": "nested",
+            "options": ["male", "female"]
+        },
+        {
+            "id": 3,
+            "question": "Is this character a hero, villain, or anti-hero?",
+            "field": "alignment",
+            "type": "exact",
+            "options": ["hero", "villain", "anti-hero"],
+            "condition": {"type": "anime"}
+        },
+        {
+            "id": 4,
+            "question": "Which trait best describes this character?",
+            "field": "traits",
+            "type": "contains",
+            "options": ["funny", "serious", "determined", "intelligent",
+                       "mysterious", "strong", "charismatic"]
+        },
+        {
+            "id": 5,
+            "question": "What genre is their main work?",
+            "field": "genres",
+            "type": "contains",
+            "options": ["action", "comedy", "drama", "thriller",
+                       "sci-fi", "adventure", "mystery"]
+        },
+        {
+            "id": 6,
+            "question": "Does this character have any special powers or abilities?",
+            "field": "traits",
+            "type": "contains",
+            "options": ["powerful", "skilled", "intelligent", "charismatic"],
+            "condition": {"type": "anime"}
+        },
+        {
+            "id": 7,
+            "question": "How popular/famous is this character?",
+            "field": "popularity_score",
+            "type": "range",
+            "options": {
+                "Extremely famous (everyone knows them)": (95, 100),
+                "Very famous": (90, 94),
+                "Well-known": (85, 89),
+                "Moderately known": (0, 84)
             }
-        ]
+        }
+    ]
 
     def start_game(self) -> Dict:
         """
@@ -101,31 +105,12 @@ class CharacterGuessingGame:
         }
 
     def answer_question(
-        self,
-        session_id: str,
-        question_number: int,
-        answer: str,
-        candidate_ids: List[int]
+    self,
+    session_id: str,
+    question_number: int,
+    answer: str,
+    candidate_ids: List[int]
     ) -> Dict:
-        """
-        Process answer and return next question or guess
-
-        Args:
-            session_id: Current session ID
-            question_number: Which question was answered (1-based)
-            answer: User's answer
-            candidate_ids: Current list of candidate IDs
-
-        Returns:
-            {
-                'status': 'continue' or 'guess',
-                'question': '...' (if continue),
-                'options': [...] (if continue),
-                'guesses': [...] (if guess),
-                'question_number': N
-            }
-        """
-        # Get the question that was answered
         question = self.question_tree[question_number - 1]
 
         print(f"[*] Session {session_id[:8]}...")
@@ -133,7 +118,6 @@ class CharacterGuessingGame:
         print(f"[*] Answer: {answer}")
         print(f"[*] Candidates before filtering: {len(candidate_ids)}")
 
-        # Filter candidates based on answer
         new_candidates = self._filter_candidates(
             candidate_ids,
             question,
@@ -142,21 +126,15 @@ class CharacterGuessingGame:
 
         print(f"[*] Candidates after filtering: {len(new_candidates)}")
 
-        # Decide if we should guess or continue
-        if len(new_candidates) <= 3 or question_number >= 6:
-            # Make guess
+        if len(new_candidates) <= 1 or question_number >= len(self.question_tree):
             return self._make_guess(new_candidates, question_number)
 
-        # Continue with next question
         next_question_idx = question_number
 
-        # Skip conditional questions if needed
         while next_question_idx < len(self.question_tree):
             next_q = self.question_tree[next_question_idx]
 
-            # Check if question has conditions
             if 'condition' in next_q:
-                # Check if condition is met
                 if not self._check_condition(next_q['condition'], new_candidates):
                     next_question_idx += 1
                     continue
@@ -164,7 +142,6 @@ class CharacterGuessingGame:
             break
 
         if next_question_idx >= len(self.question_tree):
-            # No more questions, make guess
             return self._make_guess(new_candidates, question_number)
 
         next_q = self.question_tree[next_question_idx]
@@ -175,9 +152,8 @@ class CharacterGuessingGame:
             'options': next_q['options'],
             'question_number': next_question_idx + 1,
             'remaining_candidates': len(new_candidates),
-            'candidate_ids': new_candidates  # Pass to next call
+            'candidate_ids': new_candidates
         }
-
     def _filter_candidates(
         self,
         candidate_ids: List[int],
